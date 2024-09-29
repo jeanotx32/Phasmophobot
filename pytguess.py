@@ -255,7 +255,7 @@ def startLoopwMain() :
     time.sleep(5)
     print('start loop main')
     phasmoPID = findProcess("Phasmophobia.exe")
-    #print(phasmoPID)
+    print(phasmoPID)
     app = Application().connect(process=phasmoPID[0])
     app.top_window().set_focus()
     process_name = "Phasmophobia.exe"
